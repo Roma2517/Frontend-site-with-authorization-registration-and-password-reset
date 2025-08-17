@@ -3,35 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Авторизация</title>
-    <link rel="stylesheet" href="auth.css">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="register.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <div class="wrapper">
-        <form action="#" method="POST">
-            <h1>Авторизация</h1>
-            
+        <form action="#" method="POST"> 
+            <h1>Регистрация</h1>
             <div class="input-box">
                 <input type="text" placeholder="Логин" required>
                 <i class='bx bx-user'></i>
             </div>
-
             <div class="input-box">
                 <input type="password" placeholder="Пароль" required>
                 <i class='bx bxs-lock-alt'></i>
             </div>
-
-            <div class="remember , register-link">
-                <label><input type="checkbox"> Запомнить меня</label>
-               <p> <a href="reset-password.html" class="main_link">Сброс пароля</a></p>
+            <div class="input-box">
+                <input type="email" placeholder="Почта" required> 
+                <i class='bx bx-envelope'></i> 
             </div>
-            <button type="submit" class="btn">Войти</button> 
+            <div class="input-box">
+                <input type="text" placeholder="Имя" required> 
+                <i class='bx bx-user-circle'></i>
+            </div>
+            <button type="submit" class="btn">Зарегистрироваться</button>
         </form>
-
-        <div class="register-link">
-            <p>Если у вас нет аккаунта <a href="register.html" class="main_link">Регистрация</a></p>
-        </div>
     </div>
 </body>
 </html>
