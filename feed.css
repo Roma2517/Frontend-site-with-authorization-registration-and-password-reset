@@ -1,0 +1,31 @@
+body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+        
+        .left-column {
+            width: 400px;
+            background-color: #aa0b0b;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        .center-column {
+            flex: 1;
+            background-color: #14b614;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .center-content {
+            max-width: 700px;
+            width: 100%;
+        }
