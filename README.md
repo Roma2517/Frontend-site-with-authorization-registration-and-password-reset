@@ -1,4 +1,10 @@
 <H1>Простенькая авторизация, регистрация и cброс пароля.</H1>
 <h2>В дальнейшем будет обновление, улучшение и оптимизация.</h2>
-
-<img width="1915" height="993" alt="image" src="https://github.com/user-attachments/assets/e9902fb4-277c-4cf5-9885-38a29846ba51" />
+<a>Загрузка сайта</a>
+<img width="1919" height="1077" alt=" Загрузка сайта" src="https://github.com/user-attachments/assets/0d77ed9a-ec8c-4280-a7e0-727b36a9bec4" />
+<a>Главная страница</a>
+<img width="1919" height="1079" alt=" Главная страница" src="https://github.com/user-attachments/assets/08389d0c-61b9-43fa-9ff5-49a857c5ea87" />
+<a> Авторизация </a>
+<img width="1919" height="1079" alt="Авторизация" src="https://github.com/user-attachments/assets/cd2c622b-101e-4971-994c-4a7d0d970034" />
+<a> Регистрация </a>
+<img width="1919" height="1079" alt="Регистрация" src="https://github.com/user-attachments/assets/a721c690-cf1a-4918-b391-6db79c3c9294" />
