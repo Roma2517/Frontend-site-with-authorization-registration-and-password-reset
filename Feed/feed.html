@@ -7,6 +7,30 @@
     <link rel="stylesheet" href="feed.css">
 </head>
 <body>
+
+    <!-- From Uiverse.io by dexter-st --> 
+<div class="loader-wrapper">
+  <span class="loader-letter">l</span>
+  <span class="loader-letter">o</span>
+  <span class="loader-letter">a</span>
+  <span class="loader-letter">d</span>
+  <span class="loader-letter">i</span>
+  <span class="loader-letter">n</span>
+  <span class="loader-letter">g</span>
+  <div class="loader"></div>
+</div>
+<script>
+    function loader(){
+        document.querySelector(".loader-wrapper").
+        classList.add("active");
+    }
+    function fadeOut(){
+        setTimeout(loader, 3000);
+    }
+    fadeOut();
+
+</script>
+
     <div class="container">
         <div class="left-column">
             <h2>Левая колонка</h2>

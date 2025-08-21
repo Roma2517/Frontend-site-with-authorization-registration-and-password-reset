@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatidle" content="IE=adge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" 
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Главная страница</title>
+    </head>
+    <body>
+        <!-- загрузка сайта --> 
+    <div class="loader-wrapper">
+        <span class="loader-letter">l</span>
+        <span class="loader-letter">o</span>
+        <span class="loader-letter">a</span>
+        <span class="loader-letter">d</span>
+        <span class="loader-letter">i</span>
+        <span class="loader-letter">n</span>
+        <span class="loader-letter">g</span>
+        <div class="loader"></div>
+     </div>
+        <script>
+            function loader(){
+                document.querySelector(".loader-wrapper").
+                classList.add("active");}
+            function fadeOut(){
+                setTimeout(loader, 900);}
+            fadeOut();
+        </script>
+        <header>
+            <div class="navbar">
+                <div class="logo"> <img src="https://media1.tenor.com/m/2yxnpzwP4v4AAAAd/khamzat-chimaev-khamzat-smile.gif" class="logo" alt="logo"> <!--<a href="#">Веб разработка</a>--></div>
+                <ul class="links">
+                    <!-- <li><a href="hero">Главная страница</a></li> -->
+                    <li><a href="about">О нас</a></li>
+                    <li><a href="services">Услуги</a></li>
+                    <li><a href="" target="_blank">Контакт</a></li>
+                </ul>
+                <a href="../Authorization/Authorization.html" class="action_btn">Вход</a>
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            
+            <div class="dropdown_menu">
+                <!-- <li><a href="hero">Главная страница</a></li> -->
+                    <li><a href="about">О нас</a></li>
+                    <li><a href="services">Услуги</a></li>
+                    <li><a href="" target="_blank" >Контакт</a></li>
+                    <li><a href="../Authorization/Authorization.html" class="action_btn">Вход</a></li>
+            </div>
+        </header>
+
+        <main>
+            <section id="hero">
+                <h1>Добро пожаловать</h1>
+                <p>Некая боль возникшая из-за страдания, в частности из-за боли<br />
+                    вводит в заблуждение, сбивает с толку.</p>
+            </section>
+        </main>
+
+        <script>
+            const toggleBtn = document.querySelector(".toggle_btn")
+            const toggleBtnIcon = document.querySelector(".toggle_btn i")
+            const dropDownMenu = document.querySelector(".dropdown_menu")
+
+            toggleBtn.onclick = function(){
+                dropDownMenu.classList.toggle("open")
+                const isOpen = dropDownMenu.classList.contains("open")
+
+                toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+            }
+        </script>
+    </body>
+</html>
